@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+.flex-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.flex-item {
+  display: flex;
+  flex: 1;
+  border: 1px solid white;
+  align-items: center;
+  justify-content: center;
+}
+
+.camera-holder {
+  display: flex;
+  flex: 4;
+  border: 1px solid white;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  border: 1px solid white;
+}
